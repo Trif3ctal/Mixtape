@@ -1,0 +1,15 @@
+{
+	"id": "bgg",
+	"name": "Balatro Goes Gold",
+	"display_name": "Gold",
+	"author": ["TheAstra", "trif", "Th30ne", "metanite64", "IcyEthics", "Beenix"],
+	"description": "tenative balatro music mod",
+	"prefix": "bgg",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "57ad6e",
+	"version": "0.0.1",
+	"dependencies": [
+        "Steamodded (>=1.0.0~BETA-1016c)",
+     "Lovely (>=0.8)"]
+}
