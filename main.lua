@@ -1,3 +1,5 @@
+BalatroGoesGold = SMODS.current_mod
+
 --#region File Loading
 local nativefs = NFS
 
