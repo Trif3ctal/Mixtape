@@ -32,7 +32,7 @@ SMODS.Joker {
                 scalar_value = 'add'
             })
         end
-        if context.final_scoring_step and G.GAME.blind.chips <= hand_chips * mult then
+        if context.final_scoring_step and G.GAME.blind.chips <= hand_chips * mult and not context.blueprint then
             card.ability.extra.mult = 0
             return {
                 message = localize('k_reset')
