@@ -10,7 +10,7 @@ SMODS.Joker {
         extra = {
         }
     },
-    -- bgg_addsound = 'bgg_templatestring',
+    bgg_addsound = 'bgg_GunfighterBallads',
     blueprint_compat = true,
     pools = {
         Album = true
@@ -25,4 +25,9 @@ SMODS.Joker {
     calculate = function(self, card, context)
         local stg = card.ability.extra
     end
+}
+
+SMODS.Sound {
+    key = 'GunfighterBallads',
+    path = 'addsounds/Gunfighter Ballads.ogg'
 }
