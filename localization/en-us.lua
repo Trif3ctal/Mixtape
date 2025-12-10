@@ -152,7 +152,7 @@ return {
                 }
             },
             j_bgg_WhitePony = {
-                name = {'White Pont', '{s:0.8,C:inactive}Deftones'},
+                name = {'White Pony', '{s:0.8,C:inactive}Deftones'},
                 text = {
 
                 }
@@ -218,7 +218,7 @@ return {
                 }
             },
             j_bgg_brat = {
-                name = {'brat', '{s:0.8,C:inactive}Charli XCX'},
+                name = {'brat', '{s:0.8,C:inactive}Charli xcx'},
                 text = {
 
                 }
