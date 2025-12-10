@@ -142,7 +142,10 @@ return {
             j_bgg_GlowPt2 = {
                 name = {'The Glow, Pt. 2', '{s:0.8,C:inactive}The Microphones'},
                 text = {
-
+                    'Gains {C:mult}+#1#{} Mult per hand',
+                    'played, {C:attention}resets{} if score',
+                    '{C:attention}catches fire',
+                    '{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)'
                 }
             },
             j_bgg_NeverKnowWhy = {
