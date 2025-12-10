@@ -140,7 +140,7 @@ return {
                 }
             },
             j_bgg_GlowPt2 = {
-                name = {'The Glow Pt. 2', '{s:0.8,C:inactive}The Microphones'},
+                name = {'The Glow, Pt. 2', '{s:0.8,C:inactive}The Microphones'},
                 text = {
 
                 }
