@@ -26,7 +26,7 @@ return {
                 }
             },
             j_bgg_Cross = {
-                name = {'Cross', '{s:0.8,C:inactive}Justice'},
+                name = {'{f:bgg_emoji}†', '{s:0.8,C:inactive}Justice'},
                 text = {
 
                 }
@@ -104,7 +104,7 @@ return {
                 }
             },
             j_bgg_Blackstar = {
-                name = {'Blackstar', '{s:0.8,C:inactive}David Bowie'},
+                name = {'{f:bgg_emoji}★', '{s:0.8,C:inactive}David Bowie'},
                 text = {
 
                 }

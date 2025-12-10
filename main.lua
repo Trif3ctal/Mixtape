@@ -62,4 +62,9 @@ SMODS.Atlas { -- Main Jokers Atlas
     px = 71,
     py = 95
 }
+
+SMODS.Font {
+  key = "emoji",
+  path = "712_serif.ttf"
+}
 --#endregion
