@@ -2,8 +2,8 @@ SMODS.Joker {
     key = 'VelvetUnderground',
     atlas = 'Jokers',
     pos = {
-        x = 0,
-        y = 0
+        x = 7,
+        y = 1
     },
     rarity = 1,
     config = {
