@@ -281,7 +281,8 @@ return {
     },
     misc = {
         dictionary = {
-            k_bgg_mashup_pack = "Mashup Pack"
+            k_bgg_mashup_pack = "Mashup Pack",
+            k_bgg_rearrange_ex = 'Rearrange!'
         }
     }
 }

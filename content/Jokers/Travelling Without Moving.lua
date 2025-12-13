@@ -10,7 +10,7 @@ SMODS.Joker {
         extra = {
         }
     },
-    -- bgg_addsound = 'bgg_templatestring',
+    bgg_addsound = 'bgg_TravellingWithoutMoving',
     blueprint_compat = true,
     pools = {
         Album = true
@@ -30,10 +30,23 @@ SMODS.Joker {
                 func = function()
                     local new_card = create_card_for_shop(G.shop_jokers)
                     G.shop_jokers:emplace(new_card)
-                    card:juice_up()
                     return true;
                 end
             }))
+            return {
+                message = localize('k_bgg_rearrange_ex'),
+                sound = 'bgg_rearrange'
+            }
         end
     end
+}
+
+SMODS.Sound {
+    key = 'TravellingWithoutMoving',
+    path = 'addsounds/TravellingWithoutMoving.ogg'
+}
+
+SMODS.Sound {
+    key = 'rearrange',
+    path = 'rearrange.ogg'
 }
