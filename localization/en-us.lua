@@ -100,13 +100,18 @@ return {
             j_bgg_VelvetUnderground = {
                 name = {'The Velvet', 'Underground & Nico', '{s:0.8,C:inactive}The Velvet Underground & Nico'},
                 text = {
-
+                    '{C:chips}+#1#{} Chips', -- mimicking vanilla gros michel
+                    '{C:green}#2# in #3#{} chance this',
+                    'card is destroyed',
+                    'at end of round'
                 }
             },
             j_bgg_Blackstar = {
                 name = {'{f:bgg_emoji}★', '{s:0.8,C:inactive}David Bowie'},
                 text = {
-
+                    '{C:mult}+#1#{} Mult if played',
+                    'hand contains a {C:diamonds}Diamond{}',
+                    'card and a {C:spades}Spade{} card',
                 }
             },
             j_bgg_LONGSEASON = {
