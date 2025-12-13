@@ -41,27 +41,22 @@ SMODS.Joker {
             end
 
             if total == stg.goal then
+                BalatroGoesGold.gunfighter_trigger = true
                 G.E_MANAGER:add_event(Event({
                     func = function()
-                        G.E_MANAGER:clear_queue('base')
                         card:juice_up(0.8, 0.8)
                         play_sound('bgg_gunshot')
 
                         G.GAME.chips = G.GAME.blind.chips
-                        G.STATE = G.STATES.HAND_PLAYED
+                        BalatroGoesGold.gunfighter_trigger = nil
                         return true;
                     end
                 }))
                 G.E_MANAGER:add_event(Event({
-                    no_delete = true,
                     trigger = 'after',
                     delay = 0.1,
                     func = function()
                         SMODS.destroy_cards(card)
-                        G.FUNCS.draw_from_play_to_discard()
-                        G.STATE_COMPLETE = true
-                        end_round()
-                        update_hand_text({delay = 0, immediate = true}, {mult = 0, chips = 0, chip_total = 0, level = '', handname = ''})
                         return true;
                     end
                 }))
@@ -69,6 +64,24 @@ SMODS.Joker {
         end
     end
 }
+
+local ec = eval_card
+function eval_card(...)
+    if not BalatroGoesGold.gunfighter_trigger then
+        return ec(...)
+    else
+        return {}, {}
+    end
+end
+
+local scrs = SMODS.calculate_round_score
+function SMODS.calculate_round_score(flames)
+    local ret = scrs(flames)
+    if BalatroGoesGold.gunfighter_trigger then
+        ret = G.GAME.blind.chips
+    end
+    return ret
+end
 
 SMODS.Sound {
     key = 'GunfighterBallads',
