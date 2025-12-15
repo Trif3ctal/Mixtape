@@ -318,6 +318,7 @@ return {
             --UI
             bgg_comma_spacer = ', ',
             bgg_genres = 'Genres: ',
+            bgg_year = 'Release Year: ',
 
             --General
             k_bgg_mashup_pack = "Mashup Pack",

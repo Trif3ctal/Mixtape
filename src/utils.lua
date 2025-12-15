@@ -79,7 +79,7 @@ SMODS.ObjectType {
 }
 --#endregion
 
---#region Genre UI Generation (Derived from Potato Patch Utils, don't kill me Eremel)
+--#region Fancy UI Generation (Derived from Potato Patch Utils, don't kill me Eremel)
 BalatroGoesGold.generate_genres_footer = function(genres, prefix)
     local amount = #genres
     local genre_string = {
@@ -92,8 +92,10 @@ BalatroGoesGold.generate_genres_footer = function(genres, prefix)
 
     for i, genre in ipairs(genres) do
         local target_row = math.ceil(i / 3)
-        if target_row > #genre_string.nodes then table.insert(genre_string.nodes,
-                { n = G.UIT.R, config = { align = 'cm' }, nodes = {} }) end
+        if target_row > #genre_string.nodes then
+            table.insert(genre_string.nodes,
+                { n = G.UIT.R, config = { align = 'cm' }, nodes = {} })
+        end
         table.insert(genre_string.nodes[target_row].nodes, {
             n = G.UIT.O,
             config = {
@@ -116,10 +118,38 @@ BalatroGoesGold.generate_genres_footer = function(genres, prefix)
     return genre_string
 end
 
+BalatroGoesGold.generate_year_footer = function(year, prefix)
+    local year_string = {
+        n = G.UIT.R,
+        config = { align = 'tm' },
+        nodes = {
+            { n = G.UIT.R, config = { align = 'cm' }, nodes = { { n = G.UIT.T, config = { text = localize(prefix .. '_year'), shadow = true, colour = G.C.UI.BACKGROUND_WHITE, scale = 0.27 } } } }
+        }
+    }
+    table.insert(year_string.nodes[1].nodes, {
+        n = G.UIT.O,
+        config = {
+            object = DynaText({
+                string = year,
+                colours = { G.C.UI.BACKGROUND_WHITE },
+                scale = 0.27,
+                silent = true,
+                shadow = true,
+                y_offset = -0.6,
+            })
+        }
+    })
+
+    return year_string
+end
+
 local chp = G.UIDEF.card_h_popup
 function G.UIDEF.card_h_popup(card)
     local ret_val = chp(card)
     local obj = card.config.center
+    if obj and obj.bgg_year then
+        table.insert(ret_val.nodes[1].nodes[1].nodes[1].nodes, BalatroGoesGold.generate_year_footer(obj.bgg_year, 'bgg'))
+    end
     if obj and obj.bgg_genres then
         table.insert(ret_val.nodes[1].nodes[1].nodes[1].nodes, BalatroGoesGold.generate_genres_footer(obj.bgg_genres, 'bgg'))
     end
