@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_Worlds',
+    bgg_year = 2014,
+    bgg_genres = { 'electronic', },
     blueprint_compat = true,
     pools = {
         Album = true

@@ -12,6 +12,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_Blackstar',
+    bgg_year = 2016,
+    bgg_genres = { 'rock', 'jazz', 'electronic' },
     blueprint_compat = true,
     pools = {
         Album = true

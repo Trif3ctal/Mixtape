@@ -13,6 +13,8 @@ SMODS.Joker {
         }
     },
     -- bgg_addsound = 'bgg_templatestring',
+    bgg_year = 1967,
+    bgg_genres = { 'rock', 'experimental' },
     blueprint_compat = true,
     pools = {
         Album = true

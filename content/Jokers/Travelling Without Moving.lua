@@ -12,6 +12,7 @@ SMODS.Joker {
     },
     bgg_addsound = 'bgg_TravellingWithoutMoving',
     bgg_year = '1996',
+    bgg_genres = { 'funk', 'jazz', 'pop' },
     blueprint_compat = false,
     pools = {
         Album = true

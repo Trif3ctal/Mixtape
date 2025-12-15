@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     -- bgg_addsound = 'bgg_templatestring',
+    bgg_year = 2013,
+    bgg_genres = { 'rock', 'pop' },
     blueprint_compat = true,
     pools = {
         Album = true

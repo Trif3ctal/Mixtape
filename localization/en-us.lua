@@ -310,10 +310,17 @@ return {
             --Genres
             bgg_jazz = "Jazz",
             bgg_soul = "Soul",
+            bgg_neosoul = "Neo-Soul",
             bgg_electronic = "Electronic",
+            bgg_rock = "Rock",
             bgg_pop = "Pop",
             bgg_folk = "Folk",
             bgg_hiphop = "Hip-Hop",
+            bgg_rnb = "R&B",
+            bgg_metal = "Metal",
+            bgg_funk = "Funk",
+            bgg_country = "Country",
+            bgg_experimental = "Experimental",
 
             --UI
             bgg_comma_spacer = ', ',

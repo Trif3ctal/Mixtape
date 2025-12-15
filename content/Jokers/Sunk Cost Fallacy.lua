@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_SunkCostFallacy',
+    bgg_year = 2025,
+    bgg_genres = { 'electronic', 'pop' },
     blueprint_compat = true,
     pools = {
         Album = true

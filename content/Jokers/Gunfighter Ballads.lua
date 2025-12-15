@@ -12,6 +12,8 @@ SMODS.Joker {
     },
     rarity = 3,
     bgg_addsound = 'bgg_GunfighterBallads',
+    bgg_year = 1959,
+    bgg_genres = { 'country' },
     blueprint_compat = false,
     pools = {
         Album = true

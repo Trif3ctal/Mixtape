@@ -13,6 +13,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_GlowPt2',
+    bgg_year = 2001,
+    bgg_genres = { 'folk', 'rock' },
     blueprint_compat = true,
     pools = {
         Album = true

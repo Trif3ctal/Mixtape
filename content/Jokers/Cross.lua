@@ -12,6 +12,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_Cross',
+    bgg_year = 2007,
+    bgg_genres = { 'electronic' },
     blueprint_compat = true,
     pools = {
         Album = true

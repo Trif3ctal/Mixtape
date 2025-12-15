@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_RTJ3',
+    bgg_year = 2016,
+    bgg_genres = { 'hiphop' },
     blueprint_compat = true,
     pools = {
         Album = true

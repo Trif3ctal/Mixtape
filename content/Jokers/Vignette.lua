@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     -- bgg_addsound = 'bgg_templatestring',
+    bgg_year = 2020,
+    bgg_genres = { 'electronic' },
     blueprint_compat = true,
     pools = {
         Album = true

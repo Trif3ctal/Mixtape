@@ -12,6 +12,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_RAM',
+    bgg_year = 2013,
+    bgg_genres = { 'electronic', 'funk', 'soul', 'pop' },
     blueprint_compat = true,
     pools = {
         Album = true

@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     -- bgg_addsound = 'bgg_templatestring',
+    bgg_year = 2012,
+    bgg_genres = { 'rnb', 'neosoul', 'hiphop' },
     blueprint_compat = true,
     pools = {
         Album = true

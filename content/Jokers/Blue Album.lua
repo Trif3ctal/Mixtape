@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_BlueAlbum',
+    bgg_year = 1994,
+    bgg_genres = { 'rock', 'pop' },
     blueprint_compat = true,
     pools = {
         Album = true

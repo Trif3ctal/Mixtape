@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_Chaser',
+    bgg_year = 2023,
+    bgg_genres = { 'electronic' },
     blueprint_compat = true,
     pools = {
         Album = true

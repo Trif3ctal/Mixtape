@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_MMFOOD',
+    bgg_year = 2004,
+    bgg_genres = { 'hiphop', },
     blueprint_compat = true,
     pools = {
         Album = true

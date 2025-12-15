@@ -11,6 +11,8 @@ SMODS.Joker {
         }
     },
     bgg_addsound = 'bgg_Vessels',
+    bgg_year = 2017,
+    bgg_genres = { 'rock' },
     blueprint_compat = true,
     pools = {
         Album = true
