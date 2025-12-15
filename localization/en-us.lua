@@ -256,19 +256,19 @@ return {
                 }
             },
             j_bgg_AM = {
-                name = { 'AM [2013]', '{s:0.8,C:inactive}Arctic Monkeys' },
+                name = { 'AM', '{s:0.8,C:inactive}Arctic Monkeys' },
                 text = {
 
                 }
             },
             j_bgg_ChannelOrange = {
-                name = { 'channel ORANGE [2012]', '{s:0.8,C:inactive}Frank Ocean' },
+                name = { 'channel ORANGE', '{s:0.8,C:inactive}Frank Ocean' },
                 text = {
 
                 }
             },
             j_bgg_2001 = {
-                name = { '2001 [1999]', '{s:0.8,C:inactive}Dr. Dre' },
+                name = { '2001', '{s:0.8,C:inactive}Dr. Dre' },
                 text = {
 
                 }
