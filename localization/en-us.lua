@@ -289,6 +289,19 @@ return {
     },
     misc = {
         dictionary = {
+            --Genres
+            bgg_jazz = "Jazz",
+            bgg_soul = "Soul",
+            bgg_electronic = "Electronic",
+            bgg_pop = "Pop",
+            bgg_folk = "Folk",
+            bgg_hiphop = "Hip-Hop",
+
+            --UI
+            bgg_comma_spacer = ', ',
+            bgg_genres = 'Genres: ',
+
+            --General
             k_bgg_mashup_pack = "Mashup Pack",
             k_bgg_rearrange_ex = 'Rearrange!'
         }
