@@ -205,7 +205,7 @@ return {
                 }
             },
             j_bgg_TeenageDreams = {
-                name = { 'Teenage Dreams', '{s:0.8,C:inactive}Katy Perry' },
+                name = { 'Teenage Dream', '{s:0.8,C:inactive}Katy Perry' },
                 text = {
 
                 }
@@ -241,7 +241,7 @@ return {
                 }
             },
             j_bgg_brat = {
-                name = { 'brat', '{s:0.8,C:inactive}Charli xcx' },
+                name = { 'brat', '{s:0.8,C:inactive}Charli XCX' },
                 text = {
 
                 }
