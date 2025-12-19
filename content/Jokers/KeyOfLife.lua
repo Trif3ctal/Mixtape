@@ -12,7 +12,7 @@ SMODS.Joker {
             increase = 0.1
         }
     },
-    -- bgg_addsound = 'bgg_templatestring',
+    bgg_addsound = 'bgg_KeyOfLife',
     bgg_year = 1976,
     bgg_genres = { 'soul', 'funk'},
     blueprint_compat = true,
@@ -43,4 +43,9 @@ SMODS.Joker {
             }
         end
     end
+}
+
+SMODS.Sound {
+    key = 'KeyOfLife',
+    path = 'addsounds/KeyOfLife.ogg'
 }
