@@ -241,7 +241,7 @@ return {
                 }
             },
             j_bgg_brat = {
-                name = { 'brat', '{s:0.8,C:inactive}Charli XCX' },
+                name = { 'BRAT', '{s:0.8,C:inactive}Charli xcx' }, -- keep the xcx lowercase!! that's her name's format on this album (and the title is all caps)
                 text = {
 
                 }
