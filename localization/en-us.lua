@@ -2,31 +2,31 @@ return {
     descriptions = {
         Joker = {
             j_jmix_RAM = {
-                name = { 'Random Access Memories', '{s:0.8,C:inactive}Daft Punk' },
+                name = { 'Random Access Memories', '{s:0.8,C:jmix_artist}Daft Punk' },
                 text = {
 
                 }
             },
             j_jmix_Chaser = {
-                name = { 'CHASER', '{s:0.8,C:inactive}Femtanyl' },
+                name = { 'CHASER', '{s:0.8,C:jmix_artist}Femtanyl' },
                 text = {
 
                 }
             },
             j_jmix_Chromakopia = {
-                name = { 'CHROMAKOPIA', '{s:0.8,C:inactive}Tyler, the Creator' },
+                name = { 'CHROMAKOPIA', '{s:0.8,C:jmix_artist}Tyler, the Creator' },
                 text = {
 
                 }
             },
             j_jmix_Worlds = {
-                name = { 'Worlds', '{s:0.8,C:inactive}Porter Robinson' },
+                name = { 'Worlds', '{s:0.8,C:jmix_artist}Porter Robinson' },
                 text = {
 
                 }
             },
             j_jmix_Cross = {
-                name = { '{f:jmix_emoji}†', '{s:0.8,C:inactive}Justice' },
+                name = { '{f:jmix_emoji}†', '{s:0.8,C:jmix_artist}Justice' },
                 text = { {
                     "Permanently {C:red}debuffs{} the",
                     "{C:attention}rightmost{} scoring card"
@@ -36,7 +36,7 @@ return {
                 } }
             },
             j_jmix_RunTheJewels3 = {
-                name = { 'Run The Jewels 3', '{s:0.8,C:inactive}Run The Jewels' },
+                name = { 'Run The Jewels 3', '{s:0.8,C:jmix_artist}Run The Jewels' },
                 text = {
                     'If played hand contains {C:attention}#1#',
                     'or more {C:diamonds}Diamond{} cards,',
@@ -44,25 +44,25 @@ return {
                 }
             },
             j_jmix_BitterTongues = {
-                name = { 'Bitter Tongues', '{s:0.8,C:inactive}James Mariott' },
+                name = { 'Bitter Tongues', '{s:0.8,C:jmix_artist}James Mariott' },
                 text = {
 
                 }
             },
             j_jmix_DarkSide = {
-                name = { 'The Dark Side', 'Of The Moon', '{s:0.8,C:inactive}Pink Floyd' },
+                name = { 'The Dark Side', 'Of The Moon', '{s:0.8,C:jmix_artist}Pink Floyd' },
                 text = {
 
                 }
             },
             j_jmix_Rumours = {
-                name = { 'Rumours', '{s:0.8,C:inactive}Fleetwood Mac' },
+                name = { 'Rumours', '{s:0.8,C:jmix_artist}Fleetwood Mac' },
                 text = {
 
                 }
             },
             j_jmix_BlueAlbum = {
-                name = { 'The Blue Album', '{s:0.8,C:inactive}Weezer' },
+                name = { 'The Blue Album', '{s:0.8,C:jmix_artist}Weezer' },
                 text = {
                     'If played hand contains a {C:attention}Four',
                     '{C:attention} of a Kind{}, scored cards gain',
@@ -70,7 +70,7 @@ return {
                 }
             },
             j_jmix_MMFOOD = {
-                name = { 'MM..FOOD', '{s:0.8,C:inactive}MF DOOM' },
+                name = { 'MM..FOOD', '{s:0.8,C:jmix_artist}MF DOOM' },
                 text = {
                     'All {C:attention}Food{} Jokers in the',
                     'shop are {C:attention}free{}, {C:dark_edition}Negative{},',
@@ -78,19 +78,19 @@ return {
                 }
             },
             j_jmix_SunkCostFallacy = {
-                name = { 'Sunk Cost Fallacy', '{s:0.8,C:inactive}Fox Stevenson' },
+                name = { 'Sunk Cost Fallacy', '{s:0.8,C:jmix_artist}Fox Stevenson' },
                 text = {
 
                 }
             },
             j_jmix_Vessels = {
-                name = { 'Vessels', '{s:0.8,C:inactive}Starset' },
+                name = { 'Vessels', '{s:0.8,C:jmix_artist}Starset' },
                 text = {
 
                 }
             },
             j_jmix_DemonDays = {
-                name = { 'Demon Days', '{s:0.8,C:inactive}Gorillaz' },
+                name = { 'Demon Days', '{s:0.8,C:jmix_artist}Gorillaz' },
                 text = {
                     '{C:attention}Retrigger{} all played cards if',
                     'played hand contains a {C:hearts}Heart{}',
@@ -99,19 +99,19 @@ return {
                 }
             },
             j_jmix_SkinnyFists = {
-                name = { 'Lift Your Skinny Fists', 'like Antennas to Heaven', '{s:0.8,C:inactive}Godspeed You Black Emperor!' },
+                name = { 'Lift Your Skinny Fists', 'like Antennas to Heaven', '{s:0.8,C:jmix_artist}Godspeed You Black Emperor!' },
                 text = {
 
                 }
             },
             j_jmix_Bends = {
-                name = { 'The Bends', '{s:0.8,C:inactive}Radiohead' },
+                name = { 'The Bends', '{s:0.8,C:jmix_artist}Radiohead' },
                 text = {
 
                 }
             },
             j_jmix_VelvetUnderground = {
-                name = { 'The Velvet', 'Underground & Nico', '{s:0.8,C:inactive}The Velvet Underground & Nico' },
+                name = { 'The Velvet', 'Underground & Nico', '{s:0.8,C:jmix_artist}The Velvet Underground & Nico' },
                 text = {
                     '{C:chips}+#1#{} Chips', -- mimicking vanilla gros michel
                     '{C:green}#2# in #3#{} chance this',
@@ -120,7 +120,7 @@ return {
                 }
             },
             j_jmix_Blackstar = {
-                name = { '{f:jmix_emoji}★', '{s:0.8,C:inactive}David Bowie' },
+                name = { '{f:jmix_emoji}★', '{s:0.8,C:jmix_artist}David Bowie' },
                 text = {
                     '{C:mult}+#1#{} Mult if played',
                     'hand contains a {C:diamonds}Diamond{}',
@@ -128,31 +128,31 @@ return {
                 }
             },
             j_jmix_LONGSEASON = {
-                name = { 'LONG SEASON', '{s:0.8,C:inactive}Fishmans' },
+                name = { 'LONG SEASON', '{s:0.8,C:jmix_artist}Fishmans' },
                 text = {
 
                 }
             },
             j_jmix_Aleph = {
-                name = { 'Aleph', '{s:0.8,C:inactive}Gesaffelstein' },
+                name = { 'Aleph', '{s:0.8,C:jmix_artist}Gesaffelstein' },
                 text = {
 
                 }
             },
             j_jmix_WhatsGoingOn = {
-                name = { 'What\'s Going On', '{s:0.8,C:inactive}Marvin Gaye' },
+                name = { 'What\'s Going On', '{s:0.8,C:jmix_artist}Marvin Gaye' },
                 text = {
 
                 }
             },
             j_jmix_Vignette = {
-                name = { 'Vignette', '{s:0.8,C:inactive}Frums' },
+                name = { 'Vignette', '{s:0.8,C:jmix_artist}Frums' },
                 text = {
 
                 }
             },
             j_jmix_Vanisher = {
-                name = { 'Vanisher,', 'Horizon Scraper', '{s:0.8,C:inactive}Quadeca' },
+                name = { 'Vanisher,', 'Horizon Scraper', '{s:0.8,C:jmix_artist}Quadeca' },
                 text = {
                     'Gains {X:mult,C:white}X#1#{} Mult when',
                     '{C:attention}Ante{} increases',
@@ -160,7 +160,7 @@ return {
                 }
             },
             j_jmix_GlowPt2 = {
-                name = { 'The Glow, Pt. 2', '{s:0.8,C:inactive}The Microphones' },
+                name = { 'The Glow, Pt. 2', '{s:0.8,C:jmix_artist}The Microphones' },
                 text = {
                     'Gains {C:mult}+#1#{} Mult per hand',
                     'played, {C:attention}resets{} if score',
@@ -169,39 +169,39 @@ return {
                 }
             },
             j_jmix_NeverKnowWhy = {
-                name = { 'You Will Never Know Why', '{s:0.8,C:inactive}Sweet Trip' },
+                name = { 'You Will Never Know Why', '{s:0.8,C:jmix_artist}Sweet Trip' },
                 text = {
                     'Played and scoring {C:attention}2s{} gain',
                     'a random {C:attention}Enhancement'
                 }
             },
             j_jmix_WhitePony = {
-                name = { 'White Pony', '{s:0.8,C:inactive}Deftones' },
+                name = { 'White Pony', '{s:0.8,C:jmix_artist}Deftones' },
                 text = {
 
                 }
             },
             j_jmix_NothingButBest = {
-                name = { 'Nothing But The Best', '{s:0.8,C:inactive}Frank Sinatra' },
+                name = { 'Nothing But The Best', '{s:0.8,C:jmix_artist}Frank Sinatra' },
                 text = {
 
                 }
             },
             j_jmix_Very1999Christmas = {
-                name = { 'A Very 1999 Christmas', '{s:0.8,C:inactive}Jschlatt' },
+                name = { 'A Very 1999 Christmas', '{s:0.8,C:jmix_artist}Jschlatt' },
                 text = {
 
                 }
             },
             j_jmix_CrimsonKing = {
-                name = { 'In The Court of the', 'Crimson King', '{s:0.8,C:inactive}King Crimson' },
+                name = { 'In The Court of the', 'Crimson King', '{s:0.8,C:jmix_artist}King Crimson' },
                 text = {
                     'Gain a random {C:attention}Free Joker',
                     'tag when skipping a Blind'
                 }
             },
             j_jmix_GunfighterBallads = {
-                name = { 'Gunfighter Ballads', 'and Trail Songs', '{s:0.8,C:inactive}Marty Robbins' },
+                name = { 'Gunfighter Ballads', 'and Trail Songs', '{s:0.8,C:jmix_artist}Marty Robbins' },
                 text = {
                     "During {C:attention}Boss{} Blinds,",
                     "if first played hand's rank value",
@@ -211,55 +211,55 @@ return {
                 }
             },
             j_jmix_TeenageDreams = {
-                name = { 'Teenage Dream', '{s:0.8,C:inactive}Katy Perry' },
+                name = { 'Teenage Dream', '{s:0.8,C:jmix_artist}Katy Perry' },
                 text = {
 
                 }
             },
             j_jmix_Fragile = {
-                name = { 'Fragile', '{s:0.8,C:inactive}Yes' },
+                name = { 'Fragile', '{s:0.8,C:jmix_artist}Yes' },
                 text = {
 
                 }
             },
             j_jmix_1989 = {
-                name = { '1989', '{s:0.8,C:inactive}Taylor Swift' },
+                name = { '1989', '{s:0.8,C:jmix_artist}Taylor Swift' },
                 text = {
 
                 }
             },
             j_jmix_V = {
-                name = { 'V', '{s:0.8,C:inactive}Maroon Five' },
+                name = { 'V', '{s:0.8,C:jmix_artist}Maroon Five' },
                 text = {
 
                 }
             },
             j_jmix_Currents = {
-                name = { 'Currents', '{s:0.8,C:inactive}Tame Impala' },
+                name = { 'Currents', '{s:0.8,C:jmix_artist}Tame Impala' },
                 text = {
 
                 }
             },
             j_jmix_SashaFierce = {
-                name = { 'I Am... Sasha Fierce', '{s:0.8,C:inactive}Beyoncé' },
+                name = { 'I Am... Sasha Fierce', '{s:0.8,C:jmix_artist}Beyoncé' },
                 text = {
 
                 }
             },
             j_jmix_brat = {
-                name = { 'BRAT', '{s:0.8,C:inactive}Charli xcx' }, -- keep the xcx lowercase!! that's her name's format on this album (and the title is all caps)
+                name = { 'BRAT', '{s:0.8,C:jmix_artist}Charli xcx' }, -- keep the xcx lowercase!! that's her name's format on this album (and the title is all caps)
                 text = {
 
                 }
             },
             j_jmix_444 = {
-                name = { '4:44', '{s:0.8,C:inactive}JAY-Z' },
+                name = { '4:44', '{s:0.8,C:jmix_artist}JAY-Z' },
                 text = {
 
                 }
             },
             j_jmix_TravellingWithoutMoving = {
-                name = { 'Travelling Without Moving', '{s:0.8,C:inactive}Jamiroquai' },
+                name = { 'Travelling Without Moving', '{s:0.8,C:jmix_artist}Jamiroquai' },
                 text = {
                     'After {C:money}purchasing{} a card',
                     'from the shop, move all shop cards',
@@ -267,31 +267,31 @@ return {
                 }
             },
             j_jmix_AM = {
-                name = { 'AM', '{s:0.8,C:inactive}Arctic Monkeys' },
+                name = { 'AM', '{s:0.8,C:jmix_artist}Arctic Monkeys' },
                 text = {
 
                 }
             },
             j_jmix_ChannelOrange = {
-                name = { 'channel ORANGE', '{s:0.8,C:inactive}Frank Ocean' },
+                name = { 'channel ORANGE', '{s:0.8,C:jmix_artist}Frank Ocean' },
                 text = {
 
                 }
             },
             j_jmix_2001 = {
-                name = { '2001', '{s:0.8,C:inactive}Dr. Dre' },
+                name = { '2001', '{s:0.8,C:jmix_artist}Dr. Dre' },
                 text = {
 
                 }
             },
             j_jmix_SilkSonic = {
-                name = { 'An Evening with Silk Sonic', '{s:0.8,C:inactive}Silk Sonic' },
+                name = { 'An Evening with Silk Sonic', '{s:0.8,C:jmix_artist}Silk Sonic' },
                 text = {
 
                 }
             },
             j_jmix_KeyOfLife = {
-                name = { 'Songs in the Key of Life', '{s:0.8,C:inactive}Stevie Wonder' },
+                name = { 'Songs in the Key of Life', '{s:0.8,C:jmix_artist}Stevie Wonder' },
                 text = {
                     'Gains {X:mult,C:white}X#2#{} Mult if played',
                     'hand contains a {C:attention}Straight{}',

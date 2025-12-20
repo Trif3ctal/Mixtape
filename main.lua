@@ -67,4 +67,7 @@ SMODS.Font {
   key = "emoji",
   path = "712_serif.ttf"
 }
+
+loc_colour()
+G.ARGS.LOC_COLOURS.jmix_artist = HEX('b1b1b3')
 --#endregion
