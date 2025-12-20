@@ -169,7 +169,8 @@ return {
             j_jmix_NeverKnowWhy = {
                 name = { 'You Will Never Know Why', '{s:0.8,C:inactive}Sweet Trip' },
                 text = {
-
+                    'Played and scoring {C:attention}2s{} gain',
+                    'a random {C:attention}Enhancement'
                 }
             },
             j_jmix_WhitePony = {
