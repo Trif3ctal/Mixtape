@@ -72,7 +72,9 @@ return {
             j_jmix_MMFOOD = {
                 name = { 'MM..FOOD', '{s:0.8,C:inactive}MF DOOM' },
                 text = {
-
+                    'All {C:attention}Food{} Jokers in the',
+                    'shop are {C:attention}free{}, {C:dark_edition}Negative{},',
+                    'and {C:attention}Perishable'
                 }
             },
             j_jmix_SunkCostFallacy = {
