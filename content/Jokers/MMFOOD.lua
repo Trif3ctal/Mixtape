@@ -26,23 +26,20 @@ SMODS.Joker {
     end,
     calculate = function(self, card, context)
         local stg = card.ability.extra
-        if (context.starting_shop or context.reroll_shop) and G.shop_jokers and not context.blueprint then
-            for i = 1, #G.shop_jokers.cards do
-                local joker = G.shop_jokers.cards[i]
-                if joker and not joker.edition and not joker.temp_edition and joker.ability.set == 'Joker' and joker.config.center.pools and joker.config.center.pools.Food then
-                    joker.temp_edition = true
-                    G.E_MANAGER:add_event(Event({
-                        func = function()
-                            joker.temp_edition = nil
-                            joker:set_edition('e_negative', true)
-                            joker.ability.couponed = true
-                            joker:set_cost()
-                            joker:add_sticker('perishable', true)
-                            card:juice_up(0.3, 0.5)
-                            return true
-                        end
-                    }))
-                end
+        if context.modify_shop_card and not context.blueprint then
+            if context.card and not context.card.edition and not context.card.temp_edition and context.card.ability.set == 'Joker' and context.card.config.center.pools and context.card.config.center.pools.Food then
+                context.card.temp_edition = true
+                G.E_MANAGER:add_event(Event({
+                    func = function()
+                        context.card.temp_edition = nil
+                        context.card:set_edition('e_negative', true)
+                        context.card.ability.couponed = true
+                        context.card:set_cost()
+                        context.card:add_sticker('perishable', true)
+                        card:juice_up(0.3, 0.5)
+                        return true
+                    end
+                }))
             end
         end
     end
